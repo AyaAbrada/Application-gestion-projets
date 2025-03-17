@@ -1,0 +1,418 @@
+17-Mar-2025 13:15:45.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:15:45.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:15:45.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:15:45.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:15:45.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:15:45.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63382:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:15:45.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:15:45.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:15:45.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:15:45.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:15:45.996 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:15:46.014 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [612] millisecondes
+17-Mar-2025 13:15:46.076 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:15:46.077 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:15:46.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:15:46.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [336] ms
+17-Mar-2025 13:15:46.435 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:15:46.453 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [436] millisecondes
+17-Mar-2025 13:16:00.179 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:16:00.184 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:16:00.194 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:16:00.198 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:16:01.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:16:01.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:16:01.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:16:01.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:16:01.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:16:01.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:16:01.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:16:01.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:16:01.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:16:01.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:16:01.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:16:01.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:16:01.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:16:01.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:16:01.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63387:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:16:01.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:16:01.755 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:16:02.131 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:16:02.152 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [656] millisecondes
+17-Mar-2025 13:16:02.219 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:16:02.220 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:16:02.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:16:02.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [318] ms
+17-Mar-2025 13:16:02.553 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:16:02.572 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [418] millisecondes
+17-Mar-2025 13:17:17.324 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:17:17.329 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:17:17.339 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:17:17.344 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:17:18.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:17:18.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:17:18.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:17:18.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:17:18.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:17:18.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:17:18.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:17:18.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:17:18.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:17:18.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:17:18.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:17:18.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:17:18.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63399:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:17:18.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:17:18.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:17:18.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:17:18.726 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:17:19.090 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:17:19.107 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [680] millisecondes
+17-Mar-2025 13:17:19.174 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:17:19.175 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:17:19.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:17:19.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [321] ms
+17-Mar-2025 13:17:19.511 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:17:19.529 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [420] millisecondes
+17-Mar-2025 13:18:09.718 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:18:09.721 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:18:09.728 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:18:09.731 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:20:04.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:20:04.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:20:04.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:20:04.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:20:04.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:20:04.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:20:04.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:20:04.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:20:04.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:20:04.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:20:04.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:20:04.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:20:04.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:20:04.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:20:04.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:20:04.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:20:04.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:20:04.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:20:04.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:20:04.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:20:04.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:20:04.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63414:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:20:04.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:20:04.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:20:04.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:20:04.602 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:20:05.705 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:20:05.757 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1965] millisecondes
+17-Mar-2025 13:20:06.034 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:20:06.035 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:20:06.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:20:07.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 356] ms
+17-Mar-2025 13:20:07.459 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:20:07.532 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1769] millisecondes
+17-Mar-2025 13:22:42.704 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:22:42.725 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:22:42.755 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:22:42.768 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:22:45.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:22:45.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:22:45.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:22:45.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:22:45.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:22:45.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:22:45.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:22:45.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:22:45.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:22:45.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:22:45.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:22:45.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:22:45.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:22:45.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:22:45.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:22:45.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:22:45.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:22:45.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:22:45.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:22:45.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:22:45.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:22:45.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63424:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:22:45.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:22:46.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:22:46.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:22:46.016 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:22:47.327 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:22:47.377 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [2129] millisecondes
+17-Mar-2025 13:22:47.625 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:22:47.627 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:22:47.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:22:48.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 247] ms
+17-Mar-2025 13:22:48.917 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:22:49.024 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1642] millisecondes
+17-Mar-2025 13:25:23.929 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:25:23.951 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:25:23.977 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:25:23.988 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:25:27.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:25:27.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:25:27.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:25:27.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:25:27.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:25:27.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:25:27.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:25:27.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:25:27.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:25:27.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:25:27.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:25:27.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:25:27.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:25:27.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:25:27.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:25:27.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:25:27.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:25:27.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:25:27.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:25:27.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:25:27.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:25:27.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63444:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:25:27.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:25:27.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:25:27.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:25:27.261 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:25:28.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:25:28.372 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [2033] millisecondes
+17-Mar-2025 13:25:28.659 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:25:28.660 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:25:28.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:25:30.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 414] ms
+17-Mar-2025 13:25:30.136 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:25:30.200 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1823] millisecondes
+17-Mar-2025 13:34:20.410 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:34:20.436 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:34:20.462 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:34:20.478 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:34:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:34:24.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:34:24.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:34:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:34:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:34:24.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:34:24.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:34:24.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:34:24.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:34:24.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:34:24.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:34:24.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:34:24.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:34:24.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:34:24.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:34:24.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:34:24.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:34:24.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:34:24.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:34:24.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:34:24.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:34:24.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63483:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:34:24.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:34:24.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:34:24.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:34:24.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:34:25.382 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:34:25.438 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [2241] millisecondes
+17-Mar-2025 13:34:25.808 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:34:25.809 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:34:25.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:34:27.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 392] ms
+17-Mar-2025 13:34:27.326 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:34:27.436 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1993] millisecondes
+17-Mar-2025 13:37:37.358 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:37:37.379 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:37:37.403 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:37:37.421 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:37:40.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:37:40.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:37:40.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:37:40.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:37:40.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:37:40.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:37:40.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:37:40.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:37:40.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:37:40.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:37:40.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:37:40.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:37:40.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:37:40.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:37:40.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:37:40.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:37:40.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:37:40.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:37:40.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:37:40.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:37:40.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:37:40.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63496:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:37:40.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:37:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:37:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:37:40.691 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:37:41.754 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:37:41.811 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [2095] millisecondes
+17-Mar-2025 13:37:42.064 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:37:42.066 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:37:42.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:37:43.541 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 428] ms
+17-Mar-2025 13:37:43.555 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:37:43.630 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1814] millisecondes
+17-Mar-2025 13:39:03.409 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:39:03.430 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:39:03.458 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:39:03.466 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:39:06.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:39:06.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:39:06.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:39:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:39:06.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:39:06.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:39:06.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:39:06.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:39:06.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:39:06.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:39:06.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:39:06.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:39:06.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:39:06.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:39:06.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:39:06.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:39:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:39:06.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:39:06.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:39:06.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:39:06.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:39:06.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63506:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:39:06.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:39:06.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:39:06.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:39:06.693 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:39:08.085 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:39:08.138 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [2328] millisecondes
+17-Mar-2025 13:39:08.447 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:39:08.448 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:39:08.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:39:09.822 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 324] ms
+17-Mar-2025 13:39:09.844 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:39:09.915 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1772] millisecondes
+17-Mar-2025 13:40:13.010 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:40:13.031 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:40:13.054 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:40:13.062 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:40:16.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:40:16.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:40:16.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:40:16.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:40:16.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:40:16.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:40:16.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:40:16.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:40:16.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:40:16.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:40:16.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:40:16.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:40:16.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:40:16.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:40:16.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:40:16.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:40:16.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:40:16.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:40:16.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:40:16.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:40:16.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:40:16.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63512:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:40:16.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:40:16.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:40:16.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:40:16.153 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:40:17.381 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:40:17.429 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [2154] millisecondes
+17-Mar-2025 13:40:17.710 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:40:17.711 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:40:17.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:40:19.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 236] ms
+17-Mar-2025 13:40:19.031 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:40:19.099 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1664] millisecondes
+17-Mar-2025 13:44:33.059 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:44:33.085 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:44:33.110 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:44:33.130 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:44:36.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.99
+17-Mar-2025 13:44:36.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 4 2025 20:08:08 UTC
+17-Mar-2025 13:44:36.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.99.0
+17-Mar-2025 13:44:36.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+17-Mar-2025 13:44:36.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+17-Mar-2025 13:44:36.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+17-Mar-2025 13:44:36.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Users\abrad\.jdks\openjdk-23.0.1
+17-Mar-2025 13:44:36.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      23.0.1+11-39
+17-Mar-2025 13:44:36.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+17-Mar-2025 13:44:36.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:44:36.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:44:36.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Mar-2025 13:44:36.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+17-Mar-2025 13:44:36.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+17-Mar-2025 13:44:36.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Mar-2025 13:44:36.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Mar-2025 13:44:36.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+17-Mar-2025 13:44:36.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\abrad\IdeaProjects\GestionPrejets
+17-Mar-2025 13:44:36.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\abrad\IdeaProjects\GestionPrejets\temp
+17-Mar-2025 13:44:36.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\abrad\IdeaProjects\GestionPrejets\conf\logging.properties
+17-Mar-2025 13:44:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2025 13:44:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\lib\idea_rt.jar=63538:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin
+17-Mar-2025 13:44:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+17-Mar-2025 13:44:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stdout.encoding=UTF-8
+17-Mar-2025 13:44:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dsun.stderr.encoding=UTF-8
+17-Mar-2025 13:44:36.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Users\abrad\.jdks\openjdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\abrad\AppData\Local\Microsoft\WindowsApps;C:\Users\abrad\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1\bin;;C:\Users\abrad\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;.]
+17-Mar-2025 13:44:37.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:44:37.505 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [2015] millisecondes
+17-Mar-2025 13:44:37.792 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+17-Mar-2025 13:44:37.794 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.99]
+17-Mar-2025 13:44:37.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml]
+17-Mar-2025 13:44:39.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\abrad\IdeaProjects\GestionPrejets\conf\Catalina\localhost\GestionPrejets.xml] a pris [1 344] ms
+17-Mar-2025 13:44:39.227 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:44:39.269 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1759] millisecondes
+17-Mar-2025 13:53:34.011 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+17-Mar-2025 13:53:34.026 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+17-Mar-2025 13:53:34.056 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+17-Mar-2025 13:53:34.072 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
