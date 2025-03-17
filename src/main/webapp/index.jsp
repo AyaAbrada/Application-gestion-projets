@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur ConstructionXpert</h1>
+        <h1>Bienvenue sur ConstructionXpert</h1><br>
         <nav>
             <ul>
                 <li><a href="project.jsp">Projets</a></li>
@@ -29,8 +29,5 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 ConstructionXpert Services</p>
-    </footer>
 </body>
 </html>

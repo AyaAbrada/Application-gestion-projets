@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1>Gestion des Ressources</h1>
+        <h1>Gestion des Ressources</h1><br>
         <nav>
             <ul>
                 <li><a href="index.jsp">Accueil</a></li>
@@ -41,20 +41,18 @@
         <h3>Ajouter un projet</h3>
                 <form id="add-project-form">
                     <label for="project-name">Nom :</label>
-                    <input type="text" id="project-name" required><br><br>
+                    <input type="text" id="project-name" name="name" required><br><br>
                     <label for="type">Type :</label>
-                    <input type="text" id="type" required><br><br>
+                    <input type="text" id="type" name="name" required><br><br>
                     <label for="type">Quantité :</label>
-                    <input type="text" id="quantite" required><br><br>
-                    <label for="info-fornisseur">Information du fournisseur. :</label>
-                    <input type="text" id="info-fornisseur" required><br><br>
+                    <input type="text" id="quantite" name="name" required><br><br>
+                    <label for="info-fornisseur">Information du fournisseur :</label>
+                    <input type="text" id="info-fornisseur" name="name" required><br><br>
                     <button type="submit" class = "btn btn-primary">Ajouter</button>
                 </form>
     </main>
 
-    <footer>
-        <p>&copy; 2025 ConstructionXpert Services</p>
-    </footer>
+
 
 </body>
 </html>
