@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 
 </head>
-<body>
+<body >
 
 <h2>Liste des Projets</h2>
 
@@ -78,8 +78,8 @@
     <label for="budget">Budget :</label>
     <input type="number" id="budget" name="budget" required><br><br>
 
-    <button type="submit">Ajouter Projet</button>
+    <button id="buttonn" type="submit" >Ajouter Projet</button>
 </form>
-
+<script src="script.js"></script>
 </body>
 </html>

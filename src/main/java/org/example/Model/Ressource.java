@@ -1,18 +1,28 @@
 package org.example.Model;
 
 public class Ressource {
+    int id_ressource;
     String nom;
     String type;
     float quantite;
     String infotmationFournisseur;
 
-    public Ressource(String nom, String type, float quantite, String infotmationFournisseur) {
+    public Ressource(int id_ressource, String nom, String type, float quantite, String infotmationFournisseur) {
+        this.id_ressource = id_ressource;
         this.nom = nom;
         this.type = type;
         this.quantite = quantite;
         this.infotmationFournisseur = infotmationFournisseur;
     }
     public Ressource(){}
+
+    public int getId_ressource() {
+        return id_ressource;
+    }
+
+    public void setId_ressource(int id_ressource) {
+        this.id_ressource = id_ressource;
+    }
 
     public String getNom() {
         return nom;

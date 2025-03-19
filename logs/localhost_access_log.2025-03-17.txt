@@ -141,3 +141,9 @@
 0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:56:40 +0100] "GET /GestionPrejets/project.jsp HTTP/1.1" 200 1411
 0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:57:01 +0100] "POST /GestionPrejets/ProjetServlet HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:57:01 +0100] "GET /GestionPrejets/ProjetServlet HTTP/1.1" 200 5241
+0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:58:05 +0100] "GET /GestionPrejets HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:58:08 +0100] "GET /GestionPrejets/ HTTP/1.1" 200 964
+0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:58:08 +0100] "GET /GestionPrejets/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:58:11 +0100] "GET /GestionPrejets/project.jsp HTTP/1.1" 200 1573
+0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:58:19 +0100] "POST /GestionPrejets/ProjetServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2025:16:58:20 +0100] "GET /GestionPrejets/ProjetServlet HTTP/1.1" 200 5929

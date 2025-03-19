@@ -41,19 +41,19 @@
         <h3>Ajouter un projet</h3>
                 <form id="add-project-form">
                     <label for="project-name">Nom :</label>
-                    <input type="text" id="project-name" name="name" required><br><br>
+                    <input type="text" id="project-name" name="project-name" required><br><br>
                     <label for="project-description">Description :</label>
-                    <input type="text" id="project-description" name="name" required><br><br>
+                    <input type="text" id="project-description" name="project-description" required><br><br>
                     <label for="project-start">Date de début :</label>
-                    <input type="date" id="project-start" name="name" required><br><br>
+                    <input type="date" id="project-start" name="project-start" required><br><br>
                     <label for="project-end">Date de fin :</label>
-                    <input type="date" id="project-end" name="name" required><br><br>
+                    <input type="date" id="project-end" name="project-end" required><br><br>
                     <label for="project-budget">Ressources Nécessaires :</label>
-                    <input type="number" id="ressource" name="name" required><br><br>
-                    <button type="submit" class = "btn btn-primary">Ajouter</button>
+                    <input type="number" id="ressource" name="ressource " required><br><br>
+                    <button id="buttonn" type="submit" class = "btn btn-primary">Ajouter</button>
                 </form>
     </main>
 
-
+<script src="script.js"></script>
 </body>
 </html>

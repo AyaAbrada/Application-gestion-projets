@@ -28,6 +28,6 @@
             <p>Créez, gérez et suivez l'avancement de vos projets de construction avec facilité.</p>
         </section>
     </main>
-
+<script src="script.js"></script>
 </body>
 </html>
