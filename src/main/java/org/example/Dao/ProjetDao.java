@@ -88,4 +88,29 @@ public class ProjetDao {
         }
         return result;
     }
+    public Projet getProjetById(int id) {
+        Projet projet = null;
+        String query = "SELECT * FROM projets WHERE id_projet = ?";
+
+        try (Connection conn = DatabaseConnection.getConnection();
+             PreparedStatement ps = conn.prepareStatement(query)) {
+
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
+
+            if (rs.next()) {
+                projet = new Projet();
+                projet.setId_projet(rs.getInt("id_projet"));
+                projet.setNom(rs.getString("nom_projet"));
+                projet.setDescription(rs.getString("description_projet"));
+                projet.setDateDebut(rs.getDate("date_debut_projet"));
+                projet.setDateFin(rs.getDate("date_fin_projet"));
+                projet.setBudjet(rs.getFloat("budjet_tache"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return projet;
+    }
+
 }
