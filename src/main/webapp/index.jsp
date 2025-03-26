@@ -1,6 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
 <html lang="fr">
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +17,10 @@
         <nav class="mt-4 text-center">
             <ul class="flex justify-center space-x-6">
                 <li><a href="ProjetServlet?action=list" class="hover:text-blue-300">Projets</a></li>
-                <li><a href="task.jsp" class="hover:text-blue-300">Tâches</a></li>
-                <li><a href="ressources.jsp" class="hover:text-blue-300">Ressources</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Section -->
     <main class="container mx-auto mt-8 px-4">
         <section class="bg-white p-6 rounded-lg shadow-md">
             <h2 class="text-3xl font-semibold text-center text-gray-800">Gérer vos projets de construction efficacement</h2>
@@ -30,7 +28,6 @@
         </section>
     </main>
 
-    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 </html>

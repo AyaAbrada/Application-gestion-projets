@@ -1,0 +1,1753 @@
+24-Mar-2025 14:57:25.396 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/task.jsp]
+The method getResources() is undefined for the type Tache
+54:                     <td class="py-2 px-4 border-b"><%= tache.getDescription() %></td>
+55:                     <td class="py-2 px-4 border-b"><%= new SimpleDateFormat("yyyy-MM-dd").format(tache.getDateDebutTache()) %></td>
+56:                     <td class="py-2 px-4 border-b"><%= new SimpleDateFormat("yyyy-MM-dd").format(tache.getDateFinTache()) %></td>
+57:                     <td class="py-2 px-4 border-b"><%= tache.getResources() %></td>
+58:                     <td class="py-2 px-4 border-b">
+59:                         <a href="TacheServlet?action=edit&id=<%= tache.getId_tache() %>" class="text-blue-500 hover:text-blue-700">Modifier</a> |
+60:                         <a href="TacheServlet?action=delete&id=<%= tache.getId_tache() %>" class="text-red-500 hover:text-red-700">Supprimer</a>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:26)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 14:57:25.396 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.TacheServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/task.jsp]
+The method getResources() is undefined for the type Tache
+54:                     <td class="py-2 px-4 border-b"><%= tache.getDescription() %></td>
+55:                     <td class="py-2 px-4 border-b"><%= new SimpleDateFormat("yyyy-MM-dd").format(tache.getDateDebutTache()) %></td>
+56:                     <td class="py-2 px-4 border-b"><%= new SimpleDateFormat("yyyy-MM-dd").format(tache.getDateFinTache()) %></td>
+57:                     <td class="py-2 px-4 border-b"><%= tache.getResources() %></td>
+58:                     <td class="py-2 px-4 border-b">
+59:                         <a href="TacheServlet?action=edit&id=<%= tache.getId_tache() %>" class="text-blue-500 hover:text-blue-700">Modifier</a> |
+60:                         <a href="TacheServlet?action=delete&id=<%= tache.getId_tache() %>" class="text-red-500 hover:text-red-700">Supprimer</a>
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [57] dans le fichier jsp : [/task.jsp]
+The method getResources() is undefined for the type Tache
+54:                     <td class="py-2 px-4 border-b"><%= tache.getDescription() %></td>
+55:                     <td class="py-2 px-4 border-b"><%= new SimpleDateFormat("yyyy-MM-dd").format(tache.getDateDebutTache()) %></td>
+56:                     <td class="py-2 px-4 border-b"><%= new SimpleDateFormat("yyyy-MM-dd").format(tache.getDateFinTache()) %></td>
+57:                     <td class="py-2 px-4 border-b"><%= tache.getResources() %></td>
+58:                     <td class="py-2 px-4 border-b">
+59:                         <a href="TacheServlet?action=edit&id=<%= tache.getId_tache() %>" class="text-blue-500 hover:text-blue-700">Modifier</a> |
+60:                         <a href="TacheServlet?action=delete&id=<%= tache.getId_tache() %>" class="text-red-500 hover:text-red-700">Supprimer</a>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:26)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 15:10:31.430 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke "Servlet.service()" pour la servlet [org.example.Controller.TacheServlet] a généré une exception
+	java.lang.NullPointerException: Cannot invoke "java.util.Date.getTime()" because the return value of "org.example.Model.Tache.getDateDebutTache()" is null
+		at org.example.Dao.TacheDao.ajouterTache(TacheDao.java:20)
+		at org.example.Controller.TacheServlet.doPost(TacheServlet.java:63)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:20:07.578 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:20:07.579 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.ProjetServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value=<% id_projet %> />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:21:05.120 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:21:05.120 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.ProjetServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" />
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:21:35.279 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:21:35.279 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.ProjetServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [73] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73:             <input type="hidden" name="id_projet" value="<% id_projet %>" >
+74: 
+75: 
+76:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:22:58.528 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:22:58.528 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.ProjetServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet="+<% id_projet %> method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:23:26.873 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:23:26.873 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.ProjetServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+id_projet cannot be resolved to a type
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Duplicate local variable out
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+Syntax error on token ".", ; expected
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Une erreur s'est produite à la ligne : [71] dans le fichier jsp : [/project.jsp]
+The method write(String) is undefined for the type project_jsp
+68:             </tbody>
+69:         </table>
+70:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter un Nouveau Projet</h3>
+71:         <form action="ProjetServlet&id_projet=<% id_projet %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+72:             <input type="hidden" name="action" value="add" />
+73: 
+74: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.ProjetServlet.doGet(ProjetServlet.java:50)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:25:27.486 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [74] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74:             <input type="hidden" name="id_projet" value=<% tache.getId_projet() %> />
+75: 
+76: 
+77:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [74] dans le fichier jsp : [/task.jsp]
+Syntax error, insert ";" to complete Statement
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74:             <input type="hidden" name="id_projet" value=<% tache.getId_projet() %> />
+75: 
+76: 
+77:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:27)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:25:27.486 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.TacheServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [74] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74:             <input type="hidden" name="id_projet" value=<% tache.getId_projet() %> />
+75: 
+76: 
+77:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [74] dans le fichier jsp : [/task.jsp]
+Syntax error, insert ";" to complete Statement
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74:             <input type="hidden" name="id_projet" value=<% tache.getId_projet() %> />
+75: 
+76: 
+77:             <div class="mb-4">
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [74] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74:             <input type="hidden" name="id_projet" value=<% tache.getId_projet() %> />
+75: 
+76: 
+77:             <div class="mb-4">
+
+
+Une erreur s'est produite à la ligne : [74] dans le fichier jsp : [/task.jsp]
+Syntax error, insert ";" to complete Statement
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74:             <input type="hidden" name="id_projet" value=<% tache.getId_projet() %> />
+75: 
+76: 
+77:             <div class="mb-4">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:27)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:30:12.256 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [72] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+69:         </table>
+70: 
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet?action=add&id=<%= tache.getId_projet() %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74: 
+75: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:27)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:30:12.256 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.TacheServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [72] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+69:         </table>
+70: 
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet?action=add&id=<%= tache.getId_projet() %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74: 
+75: 
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [72] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+69:         </table>
+70: 
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet?action=add&id=<%= tache.getId_projet() %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74: 
+75: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:27)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:33:05.296 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke "Servlet.service()" pour la servlet [jsp] a lancé une exception
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [72] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+69:         </table>
+70: 
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet&id=<%= tache.getId_projet() %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74: 
+75: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:27)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+24-Mar-2025 16:33:05.296 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() du Servlet [org.example.Controller.TacheServlet] dans le contexte au chemin [/GestionPrejets] a retourné une exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [72] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+69:         </table>
+70: 
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet&id=<%= tache.getId_projet() %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74: 
+75: 
+
+
+Stacktrace:] avec la cause
+	org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [72] dans le fichier jsp : [/task.jsp]
+tache cannot be resolved
+69:         </table>
+70: 
+71:         <h3 class="text-2xl font-semibold mt-8 mb-4">Ajouter une Nouvelle Tâche</h3>
+72:         <form action="TacheServlet&id=<%= tache.getId_projet() %>" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+73:             <input type="hidden" name="action" value="add" />
+74: 
+75: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:371)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:343)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:329)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:416)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:348)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:285)
+		at org.example.Controller.TacheServlet.doGet(TacheServlet.java:27)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1793)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)

@@ -18,8 +18,6 @@
             <nav class="text-center">
                 <ul class="flex justify-center space-x-6">
                     <li><a href="index.jsp" class="text-blue-600 hover:text-blue-800">Accueil</a></li>
-                    <li><a href="project.jsp" class="text-blue-600 hover:text-blue-800">Projets</a></li>
-                    <li><a href="task.jsp" class="text-blue-600 hover:text-blue-800">Tâches</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,7 +38,10 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Liste des ressources sera générée par JavaScript -->
+                     <td class="py-2 px-4 border-b">
+                                    <a href="" class="text-blue-500 hover:text-blue-700">Modifier</a> |
+                                    <a href="" class="text-red-500 hover:text-red-700">Supprimer</a> |
+                     </td>
                     </tbody>
                 </table>
             </div>

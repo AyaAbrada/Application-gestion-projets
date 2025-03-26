@@ -21,15 +21,32 @@ function text4(){
     }
 function text5(){
     if(document.getElementById("ressource").value == "" ){
-        alert("Entrer la rssource");
+        alert("Entrer la ressource");
     }
 }
-    document.getElementById("buttonn").addEventListener("click", () => {
-        text();
-        text1();
-        text2();
-        text3();
-        text4();
-        text5();
-    })
+ function validerDate() {
+             var dateSaisie = document.getElementById("date").value;
 
+             if (!dateSaisie) {
+                 alert("Veuillez sélectionner une date.");
+                 return;
+             }
+
+             var aujourdHui = new Date();
+             aujourdHui.setHours(0, 0, 0, 0);
+
+             var dateUtilisateur = new Date(dateSaisie);
+
+             if (dateUtilisateur < aujourdHui) {
+                 alert("La date doit être aujourd'hui ou dans le futur.");
+             }
+         }
+         document.getElementById("buttonn").addEventListener("click", () => {
+             validerDate();
+             text();
+             text1();
+             text2();
+             text3();
+             text4();
+             text5();
+         });
